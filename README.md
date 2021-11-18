@@ -3,20 +3,20 @@
 ## Technical specifications
 
 ### CSS
-The CSS uses sass as precompilator https://www.npmjs.com/package/sass\
+The CSS uses sass as precompilator https://www.npmjs.com/package/sass \
 the class names use BEM spesifications http://getbem.com/naming/
 
 ### React
-For the creation of a new project create-react-app is used https://create-react-app.dev/\
+For the creation of a new project create-react-app is used https://create-react-app.dev/ \
 react latest vertion 17.0.2
 
 ### Npm nodes
-Axios promise-based HTTP Client to get the API andpoint https://www.npmjs.com/package/axios\
+Axios promise-based HTTP Client to get the API andpoint https://www.npmjs.com/package/axios \
 fortawesome for the hamburger menu button https://fontawesome.com/
 
 ## To run the project
 
-git clone https://github.com/ricardofra/iridian-ricardo-test-events-app.git\
+git clone https://github.com/ricardofra/iridian-ricardo-test-events-app.git \
 npm install\
 npm start
 
