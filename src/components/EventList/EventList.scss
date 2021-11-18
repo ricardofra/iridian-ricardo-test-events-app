@@ -1,0 +1,40 @@
+.event-list {
+  &__item {
+    width: 90%;
+    margin: 5%;
+    background: #ffffff5c;
+    border-radius: 5px;
+    &__title {
+      height: 40px;
+      width: 100%;
+      background-color: #134e13a8;
+      color: white;
+      > p {
+        line-height: 40px;
+        text-align: center;
+        font-weight: bold;
+      }
+    }
+  }
+  &__market {
+    border-top: 1px solid black;
+    padding: 5px 10px;
+    &__buttons {
+      display: flex;
+      justify-content: space-evenly;
+      button {
+        padding: 3px 5px;
+        border-radius: 3px;
+        min-width: 85px;
+        margin: 5px;
+        font-size: 0.7em;
+        line-height: 1em;
+        cursor: pointer;
+        &.active {
+          background-color: #134e13;
+          color: white;
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,32 @@
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+  border: none;
+  outline: none;
+  font-family: "Circular Std";
+}
+
+@font-face {
+  font-family: "Circular Std";
+  src: url("./fonts/CircularStd-Medium.eot");
+  src: url("./fonts/CircularStd-Medium.eot?#iefix") format("embedded-opentype"),
+    url("./fonts/CircularStd-Medium.woff2") format("woff2"),
+    url("./fonts/CircularStd-Medium.woff") format("woff"),
+    url("./fonts/CircularStd-Medium.ttf") format("truetype"),
+    url("./fonts/CircularStd-Medium.svg#CircularStd-Medium") format("svg");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+.App {
+  background-image: url(./images/green-grass-background.jpg);
+  width: 100%;
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+  position: absolute;
+  overflow: hidden;
+}
